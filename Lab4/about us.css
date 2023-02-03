@@ -1,0 +1,127 @@
+body{
+    margin: 0 200px;
+    padding-bottom: 20px;
+    background: white;
+}
+#logo{
+    float: left;
+    padding-left: 10%;
+}
+.menu ul{
+    list-style: none;
+    background: white;
+    padding: 0;
+    margin:0;
+    text-align: right;
+}
+.menu li{
+    display: inline-block;
+}
+.menu a{
+    text-decoration: none;
+    padding-top: 25px;
+    text-align: center;
+    color: black;
+    width: 130px;
+    display: block;
+    font-size: 15px;
+}
+.menu li:nth-last-child(2) a{
+    color: #01fd0d;
+}
+.menu a:link{
+    color: black;
+}
+.menu a:visited{
+    color: black;
+}
+.menu a:hover{
+    background-color: white;
+    color: #01fd0d;
+}
+.last{
+    padding-right: 50px;
+}
+hr{
+    width: 97%;
+    background: black;
+    size: 10px;
+}
+#aboutUsGreen{
+    background-color: rgba(147, 239, 134, 0.94);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    margin: 5px 0 15px 0;
+}
+#AboutUs1{
+    color: white;
+    font-size: 20px;
+    font-weight: 550;
+}
+#AboutUs2{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+#gray{
+    background-color: lightgray;
+    padding: 5px 100px;
+    margin-bottom: 5px;
+}
+#AboutUs3{
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+.description{
+    padding: 0 7px;
+}
+#team1, #team2, #team3, #team4{
+    width: 100%;
+}
+#firstMember, #secondMember, #thirdMember, #forthMember {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px 5px;
+    align-content: center;
+    flex-wrap: wrap-reverse;
+}
+section p:first-child{
+    border-bottom: solid gray;
+    border-bottom-width: 2px;
+    text-align: center;
+    align-self: center;
+    padding: 15px 0;
+    margin: 0;
+    font-size: 25px;
+    font-weight: bolder;
+}
+section p:last-child{
+    font-weight: bolder;
+    font-size: 15px;
+}
+#AboutUs4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: justify;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 100px;
+    border-top: solid gray;
+}
+#footer{
+    padding-top: 25px;
+    font-size: 12px;
+}

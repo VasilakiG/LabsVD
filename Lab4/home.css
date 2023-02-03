@@ -1,0 +1,115 @@
+body{
+    margin: 0 200px;
+    padding-bottom: 20px;
+    background: white;
+}
+#logo{
+    float: left;
+    padding-left: 10%;
+}
+.menu ul{
+    list-style: none;
+    background: white;
+    padding: 0;
+    margin:0;
+    text-align: right;
+}
+.menu li{
+    display: inline-block;
+}
+.menu a{
+    text-decoration: none;
+    padding-top: 25px;
+    text-align: center;
+    color: black;
+    width: 130px;
+    display: block;
+    font-size: 15px;
+}
+.menu li:first-of-type a{
+    color: #01fd0d;
+}
+.menu a:link{
+    color: black;
+}
+.menu a:visited{
+    color: black;
+}
+.menu a:hover{
+    background-color: white;
+    color: #01fd0d;
+}
+.last{
+    padding-right: 50px;
+}
+hr{
+    width: 97%;
+    background: black;
+    size: 10px;
+}
+#blue{
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 8px;
+}
+#Monitor{
+    width: 500px;
+}
+#HomeHeader1{
+    color: white;
+    font-size: 30px;
+    font-kerning: auto;
+    font-weight: 700;
+}
+#HomeHeader2{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+#green{
+    background-color: #489d6c;
+    padding: 15px 100px;
+    margin-bottom: 5px;
+}
+#First2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#First2 p{
+    text-align: justify;
+    font-size: 12px;
+}
+#fruit{
+    width: 210px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+#Last2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#Last2 p{
+    text-align: justify;
+    font-size: 12px;
+}
+#flowers{
+    width: 210px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 100px;
+    border-top: solid gray;
+}
+#footer{
+    padding-top: 25px;
+    font-size: 12px;
+}

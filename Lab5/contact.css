@@ -1,0 +1,145 @@
+body{
+    background: rgb(118, 222, 144);
+    font-family: sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+#container1{
+    display: flex;
+    flex-direction: row;
+    height: 15%;
+    width: 100%;
+    background: white;
+    padding: 10px 50px;
+}
+#logo{
+    justify-content: flex-start;
+    flex-direction: row;
+    order: 1;
+}
+#navigation{
+    padding-left: 65%;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    order: 2;
+}
+#home{
+    border-radius: 5px;
+    padding: 25px 25px;
+}
+#contact{
+    border-radius: 5px;
+    padding: 25px 25px;
+}
+#info{
+    border-radius: 5px;
+    padding: 25px 25px;
+}
+a{
+    color: rgba(36, 37, 77, 0.8);
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+}
+a:hover{
+    background: rgba(36, 37, 77, 0.8);
+    color: white;
+}
+#formHeading{
+    padding: 20px;
+    text-align: center;
+}
+#formContainer{
+    display: flex;
+    flex-wrap: wrap;
+    background: #f1f1f1;
+    margin: auto;
+    padding: 30px;
+    width: 80%;
+    height: 100%;
+}
+input{
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 95%;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+select{
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 95%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+textarea{
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 95%;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#formField1{
+    flex: 50%;
+}
+#formField2{
+    flex: 50%;
+}
+#formField1\.1{
+    flex: 50%;
+}
+#formField2\.2{
+    flex: 50%;
+}
+#formField3{
+    flex: 50%;
+}
+#formField4{
+    flex: 50%;
+}
+#formField3\.3{
+    flex: 50%;
+}
+#formField4\.4{
+    flex: 50%;
+}
+#formField5{
+    float: left;
+    margin-top: -10.5%;
+    width: 50%;
+}
+#formField5\.5{
+    float: left;
+    margin-top: -9%;
+    margin-left: -50%;
+    width: 50%;
+}
+#subject{
+    height: 200px;
+}
+#button{
+    font-size: 16px;
+    float: left;
+    width: 450px;
+    height: 50px;
+    background: rgb(54, 161, 98);
+    text-align: center;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    margin-left: 600px;
+}
+#file{
+    width: 80%;
+}

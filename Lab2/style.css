@@ -1,0 +1,86 @@
+h1 {
+    font-weight: bold;
+    font-family: "Georgia", Times, serif;
+}
+p {
+    font-family: "Georgia", Times, serif;
+}
+hr {
+    height: 1px;
+    background: black;
+}
+
+#dotted {
+    border-style: dotted;
+}
+
+.html {
+    color: red;
+    font-family: "Georgia", Times, serif;
+    line-height: 0.5;
+    padding-left: 65px;
+}
+
+.head {
+    text-indent: 65px;
+    color: red;
+    font-family: "Georgia", Times, serif;
+    line-height: 0.5;
+    padding-left: 65px;
+}
+
+.title {
+    text-indent: 130px;
+    color: red;
+    font-family: "Georgia", Times, serif;
+    line-height: 0.5;
+    padding-left: 65px;
+}
+
+.body {
+    text-indent: 65px;
+    color: red;
+    font-family: "Georgia", Times, serif;
+    line-height: 0.5;
+    padding-left: 65px;
+}
+
+.blue {
+    font-size: 18px;
+    line-height: 1;
+    color: lightblue;
+}
+
+.yellow {
+    font-size: 18px;
+    line-height: 1;
+    color:yellow;
+}
+
+.green {
+    font-size: 18px;
+    line-height: 1;
+    color: #13b103;
+}
+
+.pink {
+    font-size: 18px;
+    line-height: 1;
+    color:pink;
+}
+
+.aligned {
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+
+.backyellow {
+    background-color: yellow;
+}
+
+.zero {
+    margin: 0;
+}
